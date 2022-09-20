@@ -6,9 +6,9 @@
   "codeowners": ["@smartHomeHub"],
   "requirements": ["aiofiles==0.6.0"],
   "homeassistant": "2022.4.0",
-  "version": "1.17.6b",
+  "version": "1.17.7",
   "updater": {
-    "version": "1.17.6b",
+    "version": "1.17.7",
     "releaseNotes": "-- Integrated dnschnur's changes for temp unit support",
     "files": [
       "climate.py"
