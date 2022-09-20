@@ -1,5 +1,9 @@
 [![](https://img.shields.io/github/v/release/davignola/SmartIR.svg?style=flat-square)](https://github.com/davignola/SmartIR/releases/latest) [![](https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square)](https://github.com/custom-components/hacs)
 
+## Acknoledgment
+Integrated @dnschnur fix for climate temperature unit into SmartIR latest code base and defined a HACS release to seamlessly upgrade my own HA.
+
+
 ## Overview
 SmartIR is a custom integration for controlling **climate devices**, **media players** and **fans** via infrared controllers.<br>
 SmartIR currently supports the following controllers:
