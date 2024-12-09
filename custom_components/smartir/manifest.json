@@ -4,14 +4,12 @@
   "documentation": "https://github.com/smartHomeHub/SmartIR",
   "dependencies": [],
   "codeowners": ["@smartHomeHub"],
-  "requirements": ["aiofiles==0.6.0"],
-  "homeassistant": "2022.4.0",
-  "version": "1.17.7",
+  "requirements": ["aiofiles>=0.6.0"],
+  "homeassistant": "2024.12.0",
+  "version": "1.17.10",
   "updater": {
-    "version": "1.17.7",
-    "releaseNotes": "-- Integrated dnschnur's changes for temp unit support",
-    "files": [
-      "climate.py"
-    ]
+    "version": "1.17.10",
+    "releaseNotes": "Sync with upstream",
+    "files": [    ]
   }
 }
