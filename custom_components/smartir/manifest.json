@@ -5,11 +5,20 @@
   "dependencies": [],
   "codeowners": ["@smartHomeHub"],
   "requirements": ["aiofiles>=0.6.0"],
-  "homeassistant": "2024.12.0",
-  "version": "1.17.10",
+  "homeassistant": "2024.10.0",
+  "version": "1.17.14",
   "updater": {
-    "version": "1.17.10",
+    "version": "1.17.14",
     "releaseNotes": "Sync with upstream",
-    "files": [    ]
+    "files": [
+      "__init__.py",
+      "climate.py",
+      "media_player.py",
+      "fan.py",
+      "light.py",  
+      "controller.py",
+      "manifest.json",
+      "services.yaml"
+    ]
   }
 }
