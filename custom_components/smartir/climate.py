@@ -142,7 +142,7 @@ class SmartIRClimate(ClimateEntity, RestoreEntity):
         # issues, e.g. where 68F converts to 26C and then back to 69F.
         self._target_temperature = self._hass_temperature(self._min_temperature)
 
-        self._hvac_mode = HVAC_MODE_OFF
+        self._hvac_mode = HVACMode.OFF
         self._current_fan_mode = self._fan_modes[0]
         self._current_swing_mode = None
         self._last_on_operation = None

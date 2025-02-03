@@ -6,9 +6,9 @@
   "codeowners": ["@smartHomeHub"],
   "requirements": ["aiofiles>=0.6.0"],
   "homeassistant": "2024.10.0",
-  "version": "1.18.0",
+  "version": "1.18.1",
   "updater": {
-    "version": "1.18.0",
+    "version": "1.18.1",
     "releaseNotes": "-- Adds support for light devices",
     "files": [
       "__init__.py",
